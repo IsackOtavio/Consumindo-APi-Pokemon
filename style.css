@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #333; /* Cinza escuro */
+    background-color: #333; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -31,7 +31,6 @@ h2 {
     letter-spacing: 2px;
 }
 
-/* 3. Botão Estilo "Pokebola" */
 button {
     width: 100%;
     padding: 15px;
@@ -53,7 +52,6 @@ button:active {
     transform: scale(0.95);
 }
 
-/* 4. Área onde o Pokemon aparece */
 .pokemom-boxes {
     margin-top: 25px;
     display: flex;

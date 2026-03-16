@@ -49,7 +49,6 @@ A lógica principal utiliza o conceito de Programação Assíncrona para garanti
 
 ```js
 async function buscarPokemon() {
-    // ... lógica de sorteio
     const resposta = await fetch(url);
     const dados = await resposta.json();
     exibirPokemon(dados);

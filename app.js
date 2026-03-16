@@ -10,7 +10,6 @@ async function buscarPokemon() {
         
         const resposta = await fetch(url);
         
-        // Verifica se a resposta foi bem sucedida
         if (!resposta.ok) throw new Error('Pokemon não encontrado');
         
         const dados = await resposta.json();
